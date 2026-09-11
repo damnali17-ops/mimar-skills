@@ -5,7 +5,7 @@ Türkiye kamu yapıları için Claude skill'leri. Şimdilik tek skill: **[mimar-
 Yapı, [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) yazım standardını izler: SKILL.md ≤10 KB, referanslar ayrı, stdlib-only Python araçları, güven etiketli bulgular.
 
 ```
-/plugin marketplace add <github-kullanici>/mimar-skills
+/plugin marketplace add damnali17-ops/mimar-skills
 /plugin install mimar-sinan@mimar-skills
 ```
 

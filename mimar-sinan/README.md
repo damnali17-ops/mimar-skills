@@ -24,7 +24,7 @@ python3 scripts/merdiven_kontrol.py --kat-yuksekligi 450 --basamak 29 --rih 15.5
 ## Kurulum
 **Claude Code:**
 ```
-/plugin marketplace add <github-kullanici>/mimar-skills
+/plugin marketplace add damnali17-ops/mimar-skills
 /plugin install mimar-sinan@mimar-skills
 ```
 **Elle:** `mimar-sinan/` klasörünü `~/.claude/skills/` altına kopyala.
