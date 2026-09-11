@@ -1,0 +1,18 @@
+{
+  "name": "mimar-skills",
+  "owner": { "name": "Aphoou" },
+  "metadata": {
+    "description": "Türkiye kamu yapıları için mimari denetim ve ihtiyaç programı skill'leri",
+    "version": "2.0.0"
+  },
+  "plugins": [
+    {
+      "name": "mimar-sinan",
+      "source": "./mimar-sinan",
+      "description": "Kamu yapıları mimari proje denetimi (PAİY, KBS, BYKHY, TS 9111) ve m² ihtiyaç programı üretimi",
+      "version": "2.0.0",
+      "category": "architecture",
+      "keywords": ["mimarlık", "imar", "hükümet konağı", "kamu binası", "erişilebilirlik", "yangın kaçış"]
+    }
+  ]
+}
