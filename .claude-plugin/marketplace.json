@@ -1,9 +1,11 @@
 {
   "name": "mimar-skills",
-  "owner": { "name": "Aphoou" },
+  "owner": {
+    "name": "Aphoou"
+  },
   "metadata": {
-    "description": "Türkiye kamu yapıları için mimari denetim ve ihtiyaç programı skill'leri",
-    "version": "2.0.0"
+    "description": "Türkiye kamu yapıları için mimari denetim, ihtiyaç programı ve keşif/hakediş skill'leri",
+    "version": "2.1.0"
   },
   "plugins": [
     {
@@ -12,7 +14,31 @@
       "description": "Kamu yapıları mimari proje denetimi (PAİY, KBS, BYKHY, TS 9111) ve m² ihtiyaç programı üretimi",
       "version": "2.0.0",
       "category": "architecture",
-      "keywords": ["mimarlık", "imar", "hükümet konağı", "kamu binası", "erişilebilirlik", "yangın kaçış"]
+      "keywords": [
+        "mimarlık",
+        "imar",
+        "hükümet konağı",
+        "kamu binası",
+        "erişilebilirlik",
+        "yangın kaçış"
+      ]
+    },
+    {
+      "name": "birim-fiyat",
+      "source": "./birim-fiyat",
+      "description": "Kamu yapım işleri keşif (yaklaşık maliyet), poz eşleştirme, fiyat analizi, hakediş ve fiyat farkı — Excel giriş/çıkış, fiyat verisi kullanıcıdan",
+      "version": "1.0.0",
+      "category": "construction",
+      "keywords": [
+        "birim fiyat",
+        "keşif",
+        "yaklaşık maliyet",
+        "hakediş",
+        "fiyat farkı",
+        "poz",
+        "ÇŞB",
+        "rayiç"
+      ]
     }
   ]
 }
